@@ -61,43 +61,6 @@
 - 为 memflow / qemu 社区提供问题复现与文档优化建议，推动国内开发者了解相关生态
 - 通过 Issue / Discussion 形式输出诊断思路，帮助更多开发者规避虚拟化与 DMA 实践中的坑位
 
-## 📊 GitHub 数据看板
-<!--stats-start-->
-<p align="center">
-<img src="https://visitor-badge.laobi.icu/badge?page_id=AAASS554.profile" alt="Visitor Count" />
-</p>
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=AAASS554&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-</p>
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AAASS554&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AAASS554&theme=tokyonight" alt="GitHub Streak" />
-</p>
-<!--stats-end-->
-
-> 所有统计数据由自托管脚本生成，并结合 GitHub Actions 定时刷新确保稳定。
-
-## 🏅 GitHub 成就
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AAASS554&theme=gitdimmed&column=6&margin-w=8&margin-h=8&no-frame=true" alt="GitHub Trophies" />
-</p>
-
-## 🌱 活动轨迹
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AAASS554&theme=tokyo-night&bg_color=0d1117&color=38bdae&line=38bdae&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph" />
-</p>
-
-## 🧩 Summary Cards
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AAASS554&theme=tokyo_night" alt="Profile Details" />
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AAASS554&theme=tokyo_night" alt="Repos per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AAASS554&theme=tokyo_night" alt="Most Commit Language" />
-</p>
-
 ## 📈 Metrics Overview
 <p align="center">
   <img src="./metrics.svg" alt="GitHub Metrics" />
@@ -105,7 +68,7 @@
 
 ## 🐍 Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AAASS554/AAASS554/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+  <img src="./assets/contribution-snake.svg" alt="Contribution Snake" />
 </p>
 
 ## 📰 最新动态 / 博客

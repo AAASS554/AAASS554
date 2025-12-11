@@ -11,16 +11,24 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: AAASS554
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-      - name: Publish to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          outputs: dist/contribution-snake.svg
+      - name: Move file into assets
+        run: |
+          mkdir -p assets
+          mv dist/contribution-snake.svg assets/contribution-snake.svg
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contribution-snake.svg
+          git commit -m "chore: update contribution snake" || true
+          git push

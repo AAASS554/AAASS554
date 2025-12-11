@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect width="800" height="200" fill="#0d1117" rx="12"/>
+  <text x="50%" y="50%" fill="#58a6ff" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" dominant-baseline="middle">
+    Contribution snake will appear here after the workflow runs.
+  </text>
+</svg>
