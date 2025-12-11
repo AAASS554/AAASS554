@@ -3,7 +3,7 @@
 > 全栈技术开发者 · 系统级解决方案提供者
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/KelviNosse/KelviNosse/master/assets/terminal.gif" alt="Terminal Animation" width="520">
+  <img src="./assets/terminal.gif" alt="Terminal Animation" width="520">
 </p>
 
 ## 👨‍💻 个人简介
