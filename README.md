@@ -75,6 +75,16 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AAASS554&theme=tokyo_night" alt="Most Commit Language" />
 </p>
 
+## 📈 Metrics Overview
+<p align="center">
+  <img src="./metrics.svg" alt="GitHub Metrics" />
+</p>
+
+## 🐍 Contribution Snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AAASS554/AAASS554/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+</p>
+
 ## 📰 最新动态 / 博客
 <!--blog-start-->
 正在开发「AI 模型调度平台」，聚焦统一代理多家模型 API、Key 管理与观测。
