@@ -25,11 +25,11 @@
 | 工具链 | Docker / Compose、GitHub Actions、Ansible、Grafana / Prometheus |
 
 ## 🏗️ 代表项目
+<!--projects-start-->
 | 项目 | 功能概述 | 核心技术 |
 | --- | --- | --- |
-| **Virtual-Core Lab** | 面向虚拟化实验的高性能环境，提供 memflow 自动化分析脚本与 KVM 反检测策略，支持多系统互操作 | memflow、qemu-kvm、Rust、Python、Grafana |
-| **FPGA-DMA Toolkit** | 针对 kmboxnet / kmboxb 的固件定制与仿真平台，提供 DMA 协议调试、固件热更新与安全审计 | FPGA-DMA、C/C++、Rust、Prometheus |
-| **Enterprise Edge Suite** | 面向企业级项目的全栈解决方案，整合 Spring Cloud 微服务、Vue 前端与高并发后端优化 | Spring Cloud、Vue、Redis、Kafka |
+| [Virtual-Core Lab](https://github.com/AAASS554) | 虚拟化实验环境与 memflow 自动化分析工具包 | Rust / Python |
+<!--projects-end-->
 
 > 如需项目演示或协同开发，请通过下方联系方式获取详细资料。
 
@@ -39,20 +39,27 @@
 - 通过 Issue / Discussion 形式输出诊断思路，帮助更多开发者规避虚拟化与 DMA 实践中的坑位
 
 ## 📊 GitHub 数据看板
+<!--stats-start-->
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=AAASS554.profile" alt="Profile Visitor Count" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=AAASS554.profile" alt="Visitor Count" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AAASS554&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=AAASS554&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AAASS554&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AAASS554&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AAASS554&theme=tokyonight" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AAASS554&theme=tokyonight" alt="GitHub Streak" />
 </p>
+<!--stats-end-->
 
-> 所有统计小组件可结合 GitHub Actions 定时触发刷新，保持主页数据实时有效。
+> 所有统计数据由自托管脚本生成，并结合 GitHub Actions 定时刷新确保稳定。
+
+## 📰 最新动态 / 博客
+<!--blog-start-->
+暂无博文，欢迎稍后查看。
+<!--blog-end-->
 
 ## 🛠️ 技术咨询与服务
 - **性能优化**：系统瓶颈分析、内存管理与高并发调优
@@ -66,3 +73,21 @@
 - Gitee：[Pepsi-git](https://gitee.com/Pepsi-git)
 
 > 记得晚安，记得热爱。欢迎一起探索系统级技术的边界！
+
+## 🌍 English Version
+
+> **JDWA** · Full-stack engineer & systems solution architect.
+
+- Passionate about memory forensics, virtualization (memflow / qemu-kvm) and DMA firmware customization.
+- Delivering high-performance enterprise solutions with Spring Cloud, Vue, Rust, and Go.
+- Open to consulting on performance tuning, virtualized environment setup, and bespoke tooling for streamers / enterprises.
+
+**Core Competencies**
+
+- Full-stack: Java · Python · Rust · JS/TS · Vue/React
+- Systems: Linux, KVM anti-detection, kernel debugging, DMA firmware
+- Data: MySQL, PostgreSQL, MongoDB, Redis
+
+**Contact**: [GitHub](https://github.com/AAASS554) · [Email](mailto:1412800823@qq.com)
+
+> Every line of code is written to stay alive — keep creating, keep curious.

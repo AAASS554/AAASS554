@@ -1,0 +1,33 @@
+name: Update Profile README
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Generate README sections
+        env:
+          GITHUB_OWNER: AAASS554
+          STATS_BASE_URL: https://github-readme-stats.vercel.app
+          BLOG_FEED_URL: ""
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+        run: |
+          python scripts/update_readme.py
+      - name: Commit and push changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: update profile data"
+          git push
