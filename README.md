@@ -58,8 +58,16 @@
 
 ## 📰 最新动态 / 博客
 <!--blog-start-->
-暂无博文，欢迎稍后查看。
+正在开发「AI 模型调度平台」（本地路径 `/Users/pepsi/Desktop/jdwa-code`），聚焦统一代理多家模型 API、Key 管理与观测。
 <!--blog-end-->
+
+## 🚀 AI 模型调度平台速览
+- **目标**：托管 OpenAI/Azure/通义千问/零一万物等 API Key，提供安全代理、日志与限流能力，配合 React 控制台完成配置与监控。
+- **架构**：`admin-ui (React+Vite)` ↔ `gateway-service (Spring Boot WebFlux)`，可选 `shared-core` 输出 Provider SPI/DTO；坚持 KISS/YAGNI，不拆微服务。
+- **后端栈**：Java 17、Spring Boot 3、Spring Security + JWT、Spring Data JPA + PostgreSQL、Redis + Resilience4j、Micrometer、springdoc-openapi；`AiProviderClient` SPI + `CredentialService` 加密，路由策略/日志用 AOP 复用（DRY/SOLID）。
+- **前端栈**：React 18 + TypeScript、Ant Design、React Query、React Hook Form；OpenAPI codegen 对齐 DTO，页面聚焦“模型配置 / 调用日志 / Key 管理”三大模块。
+- **鉴权与依赖**：支持邮箱验证码、GitHub/LinxuDo OAuth、Cloudflare Turnstile；Redis 维护 `linuxdo:tokens`、`jwt:blacklist` 等；MySQL `jdwa_code` 由 Flyway 管理。
+- **迭代节奏**：Skeleton→Provider SPI（OpenAI+mock）→Key/日志→观测压测→文档/论文素材；遵循 KISS/YAGNI/DRY/SOLID 记录每次设计权衡。
 
 ## 🛠️ 技术咨询与服务
 - **性能优化**：系统瓶颈分析、内存管理与高并发调优
