@@ -58,7 +58,7 @@
 
 ## 📰 最新动态 / 博客
 <!--blog-start-->
-正在开发「AI 模型调度平台」（本地路径 `/Users/pepsi/Desktop/jdwa-code`），聚焦统一代理多家模型 API、Key 管理与观测。
+正在开发「AI 模型调度平台」，聚焦统一代理多家模型 API、Key 管理与观测。
 <!--blog-end-->
 
 ## 🚀 AI 模型调度平台速览

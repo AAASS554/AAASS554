@@ -18,7 +18,7 @@ SELF_STATS_BASE = os.environ.get("STATS_BASE_URL", "https://github-readme-stats.
 BLOG_FEED = os.environ.get("BLOG_FEED_URL", "")
 BLOG_STATIC_MESSAGE = os.environ.get(
     "BLOG_STATIC_MESSAGE",
-    "正在开发「AI 模型调度平台」（本地路径 `/Users/pepsi/Desktop/jdwa-code`），聚焦统一代理多家模型 API、Key 管理与观测。",
+    "正在开发「AI 模型调度平台」，聚焦统一代理多家模型 API、Key 管理与观测。",
 )
 MAX_PROJECTS = int(os.environ.get("MAX_PROJECTS", "3"))
 MAX_BLOG = int(os.environ.get("MAX_BLOG", "5"))
