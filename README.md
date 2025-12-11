@@ -86,7 +86,6 @@
 - **后端栈**：Java 17、Spring Boot 3、Spring Security + JWT、Spring Data JPA + PostgreSQL、Redis + Resilience4j、Micrometer、springdoc-openapi；`AiProviderClient` SPI + `CredentialService` 加密，路由策略/日志用 AOP 复用（DRY/SOLID）。
 - **前端栈**：React 18 + TypeScript、Ant Design、React Query、React Hook Form；OpenAPI codegen 对齐 DTO，页面聚焦“模型配置 / 调用日志 / Key 管理”三大模块。
 - **鉴权与依赖**：支持邮箱验证码、GitHub/LinxuDo OAuth、Cloudflare Turnstile；Redis 维护 `linuxdo:tokens`、`jwt:blacklist` 等；MySQL `jdwa_code` 由 Flyway 管理。
-- **迭代节奏**：Skeleton → Provider SPI（CC/Codex/Gemini mock） → Key/日志 → 观测压测 → 文档/论文素材；全程遵循 KISS / YAGNI / DRY / SOLID 并记录设计权衡。
 
 ## 🛠️ 技术咨询与服务
 - **性能优化**：系统瓶颈分析、内存管理与高并发调优
