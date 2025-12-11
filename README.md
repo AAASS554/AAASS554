@@ -61,16 +61,6 @@
 - 为 memflow / qemu 社区提供问题复现与文档优化建议，推动国内开发者了解相关生态
 - 通过 Issue / Discussion 形式输出诊断思路，帮助更多开发者规避虚拟化与 DMA 实践中的坑位
 
-## 📈 Metrics Overview
-<p align="center">
-  <img src="./metrics.svg" alt="GitHub Metrics" />
-</p>
-
-## 🐍 Contribution Snake
-<p align="center">
-  <img src="./assets/contribution-snake.svg" alt="Contribution Snake" />
-</p>
-
 ## 📰 最新动态 / 博客
 <!--blog-start-->
 正在开发「AI 模型调度平台」，聚焦统一代理多家模型 API、Key 管理与观测。
